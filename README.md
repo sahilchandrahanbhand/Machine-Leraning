@@ -29,14 +29,10 @@ This repository covers foundational to advanced machine learning concepts, inclu
 ## 📁 Repository Structure
 
 ```text
-├── datasets/                 # Raw and processed datasets
-├── notebooks/                # Jupyter notebooks for experiments and EDA
-│   ├── 01_eda_preprocessing.ipynb
-│   ├── 02_classification_models.ipynb
-│   └── 03_regression_models.ipynb
-├── src/                      # Source scripts and reusable utility functions
-│   ├── data_loader.py
-│   ├── preprocess.py
-│   └── evaluate.py
-├── requirements.txt          # Python dependencies
+├── ML_Projects/
+│   └── Super_vised/          # End-to-end supervised machine learning projects
+├── Numpy/                    # Numerical computing & array manipulation exercises
+├── Supervised/               # Supervised learning algorithms & notebooks
+├── unsupervised/             # Unsupervised clustering & dimensionality reduction
+├── .gitignore                # Ignored files and directories (.ipynb_checkpoints)
 └── README.md                 # Project documentation
